@@ -1,0 +1,25 @@
+{
+  "name": "envvaults",
+  "version": "1.0.0",
+  "description": "envvaults nodejs sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "envvaults",
+    "envvaults nodejs sdk",
+    "dotenv",
+    "env",
+    "environment",
+    "envvars",
+    "vault",
+    "config",
+    "configuration"
+  ],
+  "author": "omkar bhede",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
