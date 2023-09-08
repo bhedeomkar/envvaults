@@ -1,6 +1,6 @@
 # Manage NodeJS Enviroment Variables - Simple & Secure
 
-#### wrapper around most popular `dotenv` package with additional security layer & centralized management of environment variables.
+#### Dont know how to manage enviroment variables for your NodeJS project ? This is a simple way to do it.
 
 TODO:
 
