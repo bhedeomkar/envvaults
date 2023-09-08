@@ -36,10 +36,14 @@ await envvaults.load();
 
 The `load` function fetches environment variables from the Env Vaults API and loads them into your Node.js environment using the `dotenv` package.
 
-Requires:
+Requires proccess.env to have two variables already set:
 
 1. `process.env.EV_AID` => account ID can be found in Settings on [app.envvaults.com](https://app.envvaults.com)
 2. `process.env.EV_KEY` => this is secret key of vault
+
+with these two variables, this package will fetch all the variables from vault and set them in `process.env`
+
+NOTE : _dont pass any arguments to `load()` function_
 
 ### Example:
 
